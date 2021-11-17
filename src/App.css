@@ -1,0 +1,134 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  max-width: 1440px;
+  margin: 0 auto;
+  background-color: #f5f5f5;
+  font-family: "DM Sans", sans-serif;
+}
+.landing-image {
+  max-width: 90%;
+  margin: 0 auto;
+}
+.landing-image img {
+  width: 100%;
+}
+.landing-text {
+  max-width: 94%;
+  margin: 10px auto;
+}
+.landing-text h3,
+.landing-text h4,
+.landing-text p {
+  font-style: normal;
+  font-weight: normal;
+  color: #313038;
+}
+
+.landing-text h4,
+.landing-text p {
+  font-size: 16px;
+  line-height: 21px;
+}
+.landing-text h3 {
+  font-size: 26px;
+  line-height: 37px;
+}
+.landing-text p {
+  font-size: 16px;
+  line-height: 21px;
+}
+.landing-coming-soon {
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+.landing-text form {
+  margin-top: 10px;
+}
+.landing-text form input[type="email"] {
+  background: #ffffff;
+  border: 1px solid rgba(49, 48, 56, 0.15);
+  box-shadow: 0px 0px 32px rgba(60, 56, 248, 0.05);
+  border-radius: 4px;
+  width: 297px;
+  height: 40px;
+}
+.landing-text form input::placeholder {
+  padding-left: 10px;
+  font-size: 16px;
+  color: rgba(49, 48, 56, 0.3);
+}
+.landing-text form button {
+  background: #3c38f8;
+  box-shadow: 0px 0px 32px rgba(60, 56, 248, 0.05);
+  border-radius: 4px;
+  border: none;
+  color: #fff;
+  width: 135px;
+  height: 40px;
+  font-size: 16px;
+  line-height: 21px;
+  color: #ffffff;
+  display: inline-block;
+  margin-left: 0;
+  margin-top: 20px;
+}
+#notify-me .fa-arrow-right {
+  margin-left: 7px;
+}
+.landing-text form button:hover {
+  cursor: pointer;
+  opacity: 0.5
+}
+
+.landing-strategex {
+  display: none;
+}
+
+@media screen and (min-width: 576px) {
+  .home-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row-reverse;
+    width: 70%;
+    margin: 120px auto 0 auto;
+  }
+  .landing-strategex {
+    font-stretch: extra-condensed;
+    font-weight: bold;
+    font-size: 185px;
+    line-height: 260px;
+    opacity: 0.1;
+    border: 1px solid #3c38f8;
+    position: absolute;
+    top: 90px;
+    left: 10px;
+    display: block;
+    color: #f4f4f4;
+  }
+  .landing-image {
+    width: 378.38px;
+    height: 378.38px;
+    margin: auto;
+  }
+  .landing-text h3 {
+    font-size: 36px;
+    line-height: 47px;
+    width: 440px;
+  }
+  .landing-text p {
+    font-size: 16px;
+    line-height: 21px;
+    width: 440px;
+  }
+  .landing-text form button {
+    margin-left: 8px;
+  }
+  .landing-text form {
+    margin-bottom: 30px;
+  }
+}
