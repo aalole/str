@@ -81,7 +81,7 @@ body {
 }
 .landing-text form button:hover {
   cursor: pointer;
-  opacity: 0.5
+  opacity: 0.5;
 }
 
 .landing-strategex {
@@ -109,6 +109,9 @@ body {
     left: 10px;
     display: block;
     color: #f4f4f4;
+    -webkit-text-fill-color: white;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: #3c38f8;
   }
   .landing-image {
     width: 378.38px;
