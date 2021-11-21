@@ -1,6 +1,6 @@
 import React from "react";
 import BrandImage from "../images/brand.png";
-import '../App.css'
+import "../App.css";
 
 const Homepage = () => {
   return (
@@ -9,9 +9,9 @@ const Homepage = () => {
         <img src={BrandImage} alt="brand" />{" "}
       </div>
       <div className="landing-text">
-          <h1 className="landing-strategex">trategex</h1>
+        <h1 className="landing-strategex">trategex</h1>
         <h4>Strategex</h4>
-        <div className="landing-coming-soon"> 
+        <div className="landing-coming-soon">
           <h3>Strategy Management</h3>
           <h3>Software Coming Soon!</h3>
         </div>
@@ -21,10 +21,16 @@ const Homepage = () => {
           scelerisque. Nam eget imperdiet est. Quisque feugiat et nibh eu
           consectetur.
         </p>
-        <form>
-          <input type="email" placeholder="Enter your mail" required />
-          <button type="submit" id='notify-me'>
-              Get Notified
+        <form name="whitelist-email" netlify='true' action="POST">
+          <input
+            type="email"
+            placeholder="Enter your mail"
+            pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$"
+            required
+            name="email"
+          />
+          <button type="submit" id="notify-me">
+            Get Notified
             <i className="fas fa-arrow-right"></i>{" "}
           </button>
         </form>
