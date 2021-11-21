@@ -21,7 +21,7 @@ const Homepage = () => {
           scelerisque. Nam eget imperdiet est. Quisque feugiat et nibh eu
           consectetur.
         </p>
-        <form name="whitelist-email" data-netlify="true" method="POST">
+        <form name="whitelist" method="POST" data-netlify="true">
           <input
             type="email"
             placeholder="Enter your mail"
