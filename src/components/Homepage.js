@@ -22,7 +22,7 @@ const Homepage = () => {
           consectetur.
         </p>
         <form name="whitelist" method="POST" data-netlify="true">
-          <input type="hidden" name="email" value="whitelist" />
+          <input type="hidden" name="form-name" value="whitelist" />
           <input
             type="email"
             placeholder="Enter your mail"
